@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Website</title>
+    <link rel="stylesheet" href="lib/css/style.min.css">
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="header row">
+            <div class="header-wrapper col-xs-12">
+                <!-- nav.nav>ul>li*5>a[href=#]>{Link $} -->
+                <nav class="nav">
+                    <ul>
+                        <li id="logo">
+                            <a href="default.html">
+                                <img src="lib/images/logo.png" alt="logo">
+                            </a>
+                        </li>
+                        <li class="active"><a href="default.html">Screenings</a>
+                        </li>
+
+                        <li><a href="#">About</a>
+                        </li>
+                    </ul>
+                </nav>
+  
+                <div class="hero videos" id="godzilla">
+                    <div class="hero-video">
+                        <video src="lib/video/Godzilla.mp4" muted autoplay loop></video>
+                    </div>
+                    <div class="slideshow-captions-all">
+                        <div class="slideshow-caption">
+                            <h2><small>October 20, 2014</small></h2>
+                            <h1>Godzilla</h1>
+                        </div>
+                    </div>
+                    <!--end of slideshow-captions-all-->
+                </div>
+                <!--end of hero-->
+            </div>
+            <!--header wrapper-->
+        </div>
+    </header>
+
+    <div class="container movie-info">
+        <section>
+            <div class="row">
+                <div class="col-xs-12 col-xl-6">
+                    <h2>Movie Info</h2>
+                    <p>In Summer 2014, the world's most revered monster is reborn as Warner Bros. Pictures and Legendary Pictures unleash the epic action adventure "Godzilla." From visionary new director Gareth Edwards ("Monsters") comes a powerful story of human courage and reconciliation in the face of titanic forces of nature, when the awe-inspiring Godzilla rises to restore balance as humanity stands defenseless.</p>
+                    <h2>Cast</h2>
+                    <table class="cast">
+                        <tr>
+                            <th class="col-xs-4 col-sm-2">
+                                <img src="lib/images/cast/13669489_tmb.jpg">
+                            </th>
+                            <td class="col-xs-7 col-sm-3">Aaron Taylor-Johnson
+                                <br><small>as Ford Brody</small>
+                            </td>
+                            <td class="col-xs-12 col-sm-1"></td>
+                            <th class="col-xs-4 col-sm-2">
+                                <img src="lib/images/cast/bc.jpg">
+                            </th>
+                            <td class="col-xs-7 col-sm-3">Bryan Cranston
+                                <br> <small>as Joe Brody</small>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="col-xs-4 col-sm-2">
+                                <img src="lib/images/cast/40487_tmb.jpg">
+                            </th>
+                            <td class="col-xs-7 col-sm-3">Ken Watanabe
+                                <br> <small>as Dr. Ishiro Seriwaza</small>
+                            </td>
+                            <td class="col-xs-12 col-sm-1"></td>
+                            <th class="col-xs-4 col-sm-2">
+                                <img src="lib/images/cast/14059088_tmb.jpg">
+                            </th>
+                            <td class="col-xs-7 col-sm-3">Elizabeth Olsen
+                                <br> <small>as Elle Brody</small>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="col-xs-4 col-sm-2">
+                                <img src="lib/images/cast/40498_tmb.jpg">
+                            </th>
+                            <td class="col-xs-7 col-sm-3">David Strathairn
+                                <br> <small>as Admiral William Sten</small>
+                            </td>
+                            <td class="col-xs-12 col-sm-1"></td>
+                            <th class="col-xs-4 col-sm-2">
+                                <img src="lib/images/cast/34556_tmb.jpg">
+                            </th>
+                            <td class="col-xs-7 col-sm-3">Juliette Binoche
+                                <br> <small>as Sandra Brody</small>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <!--left column-->
+                <div class="col-xs-12 col-xl-1"></div>
+                <div class="col-xs-12 col-xl-5">
+                    <table>
+                        <tr>
+                            <th class="col-xs-4">Rating</th>
+                            <td class="col-xs-8">PG-13(for intense sequences of destruction, mayhem and creature violence)</td>
+                        </tr>
+                        <tr>
+                            <th class="col-xs-4">Genre</th>
+                            <td class="col-xs-8">Mystery, Science Fiction, Fantacy</td>
+                        </tr>
+                        <tr>
+                            <th class="col-xs-4">Directed By</th>
+                            <td class="col-xs-8">Gareth Edwards</td>
+                        </tr>
+                        <tr>
+                            <th class="col-xs-4">Written By</th>
+                            <td class="col-xs-8">Frank Darabont, Dan Callahan, Dave Callaham, Max Borenstein</td>
+                        </tr>
+                        <<tr>
+                            <th class="col-xs-4">Screening Date</th>
+                            <td class="col-xs-8">October 20, 2014</td>
+                            </tr>
+                            <tr>
+                                <th class="col-xs-4">In Theaters</th>
+                                <td class="col-xs-8">October 31, 2014</td>
+                            </tr>
+                            <tr>
+                                <th class="col-xs-4">Runtime</th>
+                                <td class="col-xs-8">2 hr. 18 min.</td>
+                            </tr>
+                    </table>
+                    <button class="btn-red-solid"><a href="#">RSVP</a></button>
+                </div>
+                <!--right column-->
+                <!--row-->
+        </section>
+        <div class="clearfix"></div>
+        <div class="row">
+            <h2>Screening Location</h2>
+            <iframe class="col-xs-12 maps" src="https://www.google.com/maps/embed?pb=!1m20!1m8!1m3!1d788.3090454169757!2d-122.42165227862598!3d37.784504413737!3m2!1i1024!2i768!4f13.1!4m9!1i0!3e6!4m0!4m5!1s0x80858096886bd299%3A0x9c4da93dbcede90!2sAMC+Van+Ness+14%2C+1000+Van+Ness+Ave%2C+San+Francisco%2C+CA+94109!3m2!1d37.785212!2d-122.42098!5e0!3m2!1sen!2sus!4v1413753648307" width="1100" height="400" frameborder="0" style="border:0"></iframe>
+        </div>
+        <div class="clearfix"></div>
+        </div>
+        <!--row-->
+    </div>
+    <!--container-->
+
+    <footer>
+        <div class="row centered">
+            <p class="col-xs-12">2014 Out of the Box. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Website</title>
+    <link rel="stylesheet" href="lib/css/style.min.css">
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="header row">
+            <div class="header-wrapper col-xs-12">
+                <!-- nav.nav>ul>li*5>a[href=#]>{Link $} -->
+                <nav class="nav">
+                    <ul>
+                        <li id="logo">
+                            <a href="default.html">
+                                <img src="lib/images/logo.png" alt="logo">
+                            </a>
+                        </li>
+                        <li class="active"><a href="default.html">Screenings</a>
+                        </li>
+
+                        <li><a href="#">About</a>
+                        </li>
+                    </ul>
+                </nav>
+  
+                <div class="hero videos" id="interview">
+                    <div class="hero-video">
+                       <video src="lib/video/Interview.mp4" muted autoplay loop></video>
+
+                    </div>
+                    <div class="slideshow-captions-all">
+                        <div class="slideshow-caption">
+                            <h2><small>December 20, 2014</small></h2>
+                            <h1>The Interview</h1>
+                        </div>
+                    </div>
+                    <!--end of slideshow-captions-all-->
+                </div>
+                <!--end of hero-->
+            </div>
+            <!--header wrapper-->
+        </div>
+    </header>
+
+    <div class="container movie-info">
+        <section>
+            <div class="row">
+                <div class="col-xs-12 col-xl-6">
+                    <h2>Movie Info</h2>
+                    <p>In the action-comedy The Interview, Dave Skylark (James Franco) and his producer Aaron Rapoport (Seth Rogen) run the popular celebrity tabloid TV show "Skylark Tonight." When they discover that North Korean dictator Kim Jong-un is a fan of the show, they land an interview with him in an attempt to legitimize themselves as journalists. As Dave and Aaron prepare to travel to Pyongyang, their plans change when the CIA recruits them, perhaps the two least-qualified men imaginable, to assassinate Kim Jong-un. (c) Sony.</p>
+                    <h2>Cast</h2>
+                    <table class="cast">
+                        <tr>
+                            <th class="col-xs-4 col-sm-2">
+                                <img src="lib/images/cast/40892_tmb.jpg">
+                            </th>
+                            <td class="col-xs-7 col-sm-3">Seth Rogen
+                                <br><small>as Aaron Rapoport</small>
+                            </td>
+                            <td class="col-xs-12 col-sm-1"></td>
+                            <th class="col-xs-4 col-sm-2">
+                                <img src="lib/images/cast/jf.jpg">
+                            </th>
+                            <td class="col-xs-7 col-sm-3">James Franco
+                                <br> <small>as Dave Skylark</small>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="col-xs-4 col-sm-2">
+                                <img src="lib/images/cast/lc.jpg">
+                            </th>
+                            <td class="col-xs-7 col-sm-3">Lizzy Caplan
+                                <br> <small>as Agent Lacey</small>
+                            </td>
+                            <td class="col-xs-12 col-sm-1"></td>
+                            <th class="col-xs-4 col-sm-2">
+                                <img src="lib/images/cast/rp.jpg">
+                            </th>
+                            <td class="col-xs-7 col-sm-3">Randall Park
+                                <br> <small>as President Kim</small>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="col-xs-4 col-sm-2">
+                                <img src="lib/images/cast/db.jpg">
+                            </th>
+                            <td class="col-xs-7 col-sm-3">Diana Bang
+                                <br> <small>as Sook</small>
+                            </td>
+                            <td class="col-xs-12 col-sm-1"></td>
+                            <th class="col-xs-4 col-sm-2">
+                                <img src="lib/images/cast/ts.jpg">
+                            </th>
+                            <td class="col-xs-7 col-sm-3">Timothy Simons
+                                <br> <small>as Malcolm</small>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <!--left column-->
+                <div class="col-xs-12 col-xl-1"></div>
+                <div class="col-xs-12 col-xl-5">
+                    <table>
+                        <tr>
+                            <th class="col-xs-4">Rating</th>
+                            <td class="col-xs-8">Unrated</td>
+                        </tr>
+                        <tr>
+                            <th class="col-xs-4">Genre</th>
+                            <td class="col-xs-8">Comedy, Action</td>
+                        </tr>
+                        <tr>
+                            <th class="col-xs-4">Directed By</th>
+                            <td class="col-xs-8">Evan Goldberg, Seth Rogan</td>
+                        </tr>
+                        <tr>
+                            <th class="col-xs-4">Written By</th>
+                            <td class="col-xs-8">Dan Sterling, Seth Rogen, Evan Goldberg</td>
+                        </tr>
+                        <<tr>
+                            <th class="col-xs-4">Screening Date</th>
+                            <td class="col-xs-8">December 20, 2014</td>
+                            </tr>
+                            <tr>
+                                <th class="col-xs-4">In Theaters</th>
+                                <td class="col-xs-8">December 25, 2014</td>
+                            </tr>
+                            <tr>
+                                <th class="col-xs-4">Runtime</th>
+                                <td class="col-xs-8">1 hr. 48 min.</td>
+                            </tr>
+                    </table>
+                    <button class="btn-red-solid"><a href="#">RSVP</a></button>
+                </div>
+                <!--right column-->
+                <!--row-->
+        </section>
+        <div class="clearfix"></div>
+        <div class="row">
+            <h2>Screening Location</h2>
+            <iframe class="col-xs-12 maps" src="https://www.google.com/maps/embed?pb=!1m20!1m8!1m3!1d788.3090454169757!2d-122.42165227862598!3d37.784504413737!3m2!1i1024!2i768!4f13.1!4m9!1i0!3e6!4m0!4m5!1s0x80858096886bd299%3A0x9c4da93dbcede90!2sAMC+Van+Ness+14%2C+1000+Van+Ness+Ave%2C+San+Francisco%2C+CA+94109!3m2!1d37.785212!2d-122.42098!5e0!3m2!1sen!2sus!4v1413753648307" width="1100" height="400" frameborder="0" style="border:0"></iframe>
+        </div>
+        <div class="clearfix"></div>
+        </div>
+        <!--row-->
+    </div>
+    <!--container-->
+
+    <footer>
+        <div class="row centered">
+            <p class="col-xs-12">2014 Out of the Box. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
